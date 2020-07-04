@@ -22,5 +22,5 @@ def git_go_green(repo):
 
 do_changes(stampler)
 git_go_green(repository)
-input("Press Enter to continue...")
+input(str("Press Enter to continue..."))
 
