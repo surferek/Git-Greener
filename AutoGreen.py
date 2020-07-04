@@ -27,7 +27,7 @@ print(get_status(repository, working_tree_dir))
 def git_go_green(repo):
     repo.git.add(A=True)
     repo.git.commit('-m', f"Date and time: {datetime.now().strftime('%H:%M:%S, %m/%d/%Y')}")
-    repo.git.push('origin', 'HEAD:Git-Greener')
+    repo.git.push('origin', 'HEAD:master')
     print('Pushed')
 
 
