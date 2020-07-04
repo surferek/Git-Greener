@@ -10,7 +10,7 @@ repository = Repo(working_tree_dir)
 
 def do_changes(file):
     with open(file, "a") as f:
-        f.write("Greeny weeny")
+        f.write("Greeny weeny\n")
 
 
 def git_go_green(repo):
