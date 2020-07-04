@@ -10,15 +10,16 @@ repository = Repo(working_tree_dir)
 
 def do_changes(file):
     with open(file, "a") as f:
-        f.write(f"Date and time: {datetime.now().strftime('%H:%M:%S, %m/%d/%Y')}\n")
+        f.write("Date and time: {}\n".format(datetime.now().strftime('%H:%M:%S, %m/%d/%Y')))
 
 
 def git_go_green(repo):
     repo.git.add(A=True)
-    repo.git.commit('-m', f"Date and time: {datetime.now().strftime('%H:%M:%S, %m/%d/%Y')}")
+    repo.git.commit('-m', "Date and time: {}".format(datetime.now().strftime('%H:%M:%S, %m/%d/%Y')))
     repo.git.push('origin', 'HEAD:master')
     print('Pushed')
 
 
 do_changes(stampler)
 git_go_green(repository)
+
