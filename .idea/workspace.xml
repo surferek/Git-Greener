@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da571ac-2775-451f-9406-c0533b003705" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AutoGreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoGreen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stampler" beforeDir="false" afterPath="$PROJECT_DIR$/Stampler" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593883234392</updated>
       <workItem from="1593883235657" duration="3707000" />
+      <workItem from="1593887218190" duration="315000" />
     </task>
     <servers />
   </component>
@@ -113,6 +112,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
