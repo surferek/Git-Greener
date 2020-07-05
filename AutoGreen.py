@@ -1,12 +1,14 @@
 from git import Repo
 import os
 import sys
-from datetime import datetime
-import time
+
+
+python_version = sys.version[0]
 
 working_tree_dir = os.path.dirname(os.path.abspath(__file__))
 stampler = os.path.abspath(str(sys.argv[1]))
 repository = Repo(working_tree_dir)
+
 
 def do_changes(file):
     with open(file, "a") as f:
@@ -20,6 +22,10 @@ def git_go_green(repo):
     print('Pushed to repository')
 
 
-do_changes(stampler)
-git_go_green(repository)
-time.sleep(4)
+if __name__ == '__main__':
+
+    do_changes(stampler)
+    git_go_green(repository)
+    if python_version == 2:
+        raw_input("Press any key to continue...")
+    input("Press any key to continue...")
