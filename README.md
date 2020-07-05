@@ -4,17 +4,15 @@
 ----
 
 ##### Requirements
-<p>
 Python 2.7 or higher <br>
 pip installed <br>
 gitpython library installed <br>
-git installed locally [tutorial](https://www.computerhope.com/issues/ch001927.htm)
-
-</p>
+__git installed locally__ 
+( to install configure git locally follow the [tutorial](https://www.computerhope.com/issues/ch001927.htm) )
+Admin privileges 
 
 
 ##### Instruction
-
 
 Go to windows+R <br>
 Type shell:startup <br>
