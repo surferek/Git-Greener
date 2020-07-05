@@ -1,5 +1,20 @@
 # Git-Greener
-Make it green when you On
+#### A simple script that user can implement to control git contribution activity
+
+----
+
+##### Requirements
+<p>
+Python 2.7 or higher <br>
+pip installed <br>
+gitpython library installed <br>
+git installed locally [tutorial](https://www.computerhope.com/issues/ch001927.htm)
+
+</p>
+
+
+##### Instruction
+
 
 Go to windows+R <br>
 Type shell:startup <br>
