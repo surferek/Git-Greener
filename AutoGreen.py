@@ -23,9 +23,10 @@ def git_go_green(repo):
 
 
 if __name__ == '__main__':
-
     do_changes(stampler)
     git_go_green(repository)
+
     if python_version == 2:
         raw_input("Press any key to continue...")
-    input("Press any key to continue...")
+    else:
+        input("Press any key to continue...")
