@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da571ac-2775-451f-9406-c0533b003705" name="Default Changelist" comment="Stampler cleaned">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoGreen.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoGreen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1598860772303" duration="905000" />
       <workItem from="1600107106344" duration="601000" />
       <workItem from="1600275004587" duration="349000" />
-      <workItem from="1601310578467" duration="951000" />
+      <workItem from="1601310578467" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="fixed py version check">
       <created>1596455687871</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598861427049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="OOP added and multipush greening">
+      <created>1601311770395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601311770395</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +169,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fixed py version check" />
     <MESSAGE value="Stampler cleaned" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stampler cleaned" />
+    <MESSAGE value="OOP added and multipush greening" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP added and multipush greening" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="93" key="#Plugins" timestamp="1596456161407">
@@ -199,10 +205,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="277" y="97" key="SettingsEditor/0.40.1536.824/1920.0.1280.984@0.40.1536.824" timestamp="1593941642972" />
-    <state x="361" y="185" key="Vcs.Push.Dialog.v2" timestamp="1598861432016">
+    <state x="361" y="185" key="Vcs.Push.Dialog.v2" timestamp="1601311773694">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="361" y="185" key="Vcs.Push.Dialog.v2/0.40.1536.824/1920.0.1280.984@0.40.1536.824" timestamp="1598861432016" />
+    <state x="361" y="185" key="Vcs.Push.Dialog.v2/0.40.1536.824/1920.0.1280.984@0.40.1536.824" timestamp="1601311773694" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Git_Greener$AutoGreen.coverage" NAME="AutoGreen Coverage Results" MODIFIED="1598860862786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
