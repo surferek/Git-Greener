@@ -5,8 +5,8 @@ import random
 
 
 class GitGreener():
+    PYTHON_VERSION = sys.version[0]
 
-    python_version = sys.version[0]
     working_tree_dir = os.path.dirname(os.path.abspath(__file__))
     stampler = os.path.abspath(str(sys.argv[1]))
     repository = Repo(working_tree_dir)
@@ -15,7 +15,6 @@ class GitGreener():
 
     def __init__(self):
         self.go_even_greener()
-
 
     @classmethod
     def do_changes(cls, file, message):
@@ -31,8 +30,7 @@ class GitGreener():
 
     @classmethod
     def go_even_greener(cls):
-
-        cls.do_changes(cls.stampler, "What a green adventure!!!")
+        cls.do_changes(cls.stampler, "What a green adventure!!!\n")
         for push in range(random.randint(2, 8)):
             cls.do_changes(cls.stampler, cls.message)
             cls.git_go_green(cls.repository)
