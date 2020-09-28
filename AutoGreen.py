@@ -4,7 +4,7 @@ import sys
 import random
 
 
-class GitGreener():
+class GitGreener:
     PYTHON_VERSION = sys.version[0]
 
     working_tree_dir = os.path.dirname(os.path.abspath(__file__))
@@ -39,7 +39,7 @@ class GitGreener():
 if __name__ == '__main__':
     GitGreener()
 
-    if GitGreener.python_version == 2:
+    if GitGreener.PYTHON_VERSION == 2:
         raw_input("Press any key to continue...")
     else:
         input("Press any key to continue...")
