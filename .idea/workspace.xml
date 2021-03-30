@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5da571ac-2775-451f-9406-c0533b003705" name="Default Changelist" comment="Stampler cleaned">
-      <change beforePath="$PROJECT_DIR$/Stampler" beforeDir="false" afterPath="$PROJECT_DIR$/Stampler" afterDir="false" />
-    </list>
+    <list default="true" id="5da571ac-2775-451f-9406-c0533b003705" name="Default Changelist" comment="Stampler cleaned" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,6 +111,7 @@
       <workItem from="1601310578467" duration="1202000" />
       <workItem from="1601318995423" duration="129000" />
       <workItem from="1616747799134" duration="143000" />
+      <workItem from="1617037949921" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="fixed py version check">
       <created>1596455687871</created>
