@@ -63,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -125,6 +125,7 @@
       <workItem from="1617037949921" duration="13000" />
       <workItem from="1621263381252" duration="1740000" />
       <workItem from="1621266119118" duration="956000" />
+      <workItem from="1622135114334" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="fixed py version check">
       <created>1596455687871</created>
